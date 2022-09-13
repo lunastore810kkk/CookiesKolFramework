@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    //cursor: none;
+    background: rgb(27, 27, 27);
+   
+}
+
+
+.imgc{
+  width: 100%;
+  height: 50vh;
+}
+//router-dom
+
+@keyframes router-dom {
+    0%   {top: -500;}
+    25%  {}
+    50%  {top: 0px;}
+    75%  {}
+    100% {top: -500;}
+  }
+
+.Router-Dom1{
+    width: 100%;
+    background-color: rgb(99, 244, 210);
+    position: absolute;
+    top: -500px;
+    transition: 1s ease-in-out;
+    animation-duration: 3.7s;
+    animation-iteration-count: 1;
+}
+.wrapper {
+    max-width: 900px;
+    margin: auto;
+    font-family: "Arial";
+}
+ 
+.toolbar{
+    width: 100%;
+    background-color: #444444;
+    overflow: auto;
+}
+ 
+.toolbar a {
+    float: left;
+    width: 11%;
+    text-align: center;
+    padding: 6px 5px;
+    transition: all 0.5s ease;
+    color: white;
+}
+ 
+/* Change color on hover */
+.toolbar a:hover {
+    background-color: #000;
+  }
+ 
+/* Change color on selected icon */
+.selected {
+    background-color: #000; 
+}
+ 
+#my-canvas{
+    width: 100%;
+    border: 3px solid #000000;
+}
+ 
+#img-data-div{
+    width: 100%;
+    max-width: 900px;
+    height: 200px;
+}
+ 
+/* Resize image to container */
+.toolbar a img{
+    max-width:100%;
+    height:auto;
+}
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body, .wrapper, .content{
+  display: flex;
+
+ 
+}
+
+.wrapper{
+  width: 440px;
+  padding: 30px 30px 38px;
+  background: #fff;
+  border-radius: 10px;
+  flex-direction: column;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  align-items: center;
+}
+.wrapper img{
+  max-width: 103px;
+}
+.wrapper h1{
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0;
+}
+.wrapper .content{
+  width: 100%;
+  justify-content: space-between;
+}
+
+.content .column{
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+  width: calc(100% / 3 - 5px);
+}
+.content.disable .column{
+  opacity: 0.6;
+  pointer-events: none;
+}
+.column select{
+  width: 100%;
+  height: 53px;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 19px;
+}
+
+.sd{
+    color: red;
+}
+.sds{
+    color: red;
+}
+.Beginclass{
+  color: white;
+}

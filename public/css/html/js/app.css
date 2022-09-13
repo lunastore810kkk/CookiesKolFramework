@@ -1,0 +1,65 @@
+body{
+    background-color: white;
+}
+#ACOMpuTWebTecloter{
+    width: 100%;
+    position: absolute;
+}
+.textclass{
+    color: gray;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+.textclass3{
+    color: black;
+    display: flex;
+    justify-content: right;
+    user-select: none;
+    font-size: 15px;
+}
+.printfunclass{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+}
+.textclass2{
+    color: black;
+    display: flex;
+    justify-content: right;
+}
+.AddForderclass{
+    border-radius: 10px;
+    background-color: rgb(89, 187, 252);
+    color: white;
+    padding: 10px;
+    border: none;
+    float: center;
+    margin: auto;
+    text-decoration: none;
+    transition: 1s ease-in-out;
+}
+
+.AddForderclass:hover{
+    border-radius: 10px;
+    background-color: rgb(89, 187, 252);
+    color: white;
+    padding: 10px;
+    border: none;
+    float: center;
+    margin: auto;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 1s ease-in-out;
+}
+.divclass{
+    display: flex;
+    justify-content: center;
+    
+}
+.imgc2{
+    width: 100%;
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+}
